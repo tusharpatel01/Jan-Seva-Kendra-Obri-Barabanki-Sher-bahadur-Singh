@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{navy:{DEFAULT:'#12264a',light:'#1d3a6b'},saffron:{DEFAULT:'#c2610a',dark:'#9a4e07'},cream:'#fbf7f0',ink:'#2b2f36',leaf:{DEFAULT:'#3f7a52',dark:'#2f5f3f'}},fontFamily:{sans:['Inter','"Noto Sans Devanagari"','system-ui','sans-serif']}}},plugins:[]};
