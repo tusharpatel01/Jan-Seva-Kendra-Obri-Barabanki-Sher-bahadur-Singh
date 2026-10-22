@@ -1,7 +1,7 @@
 import {centre} from '../config/centreConfig';
 // Sample entries. To show one publicly set BOTH isVerified and isAvailable to true,
 // then fill docs: ['...'] and fee: '...' only if confirmed.
-const S=(order,cat,icon,hi,en,dhi,den)=>({id:`s${order}`,order,cat,icon,hi,en,dhi,den,docs:[],fee:null,isVerified:false,isAvailable:false});
+const S=(order,cat,icon,hi,en,dhi,den)=>({id:`s${order}`,order,cat,icon,hi,en,dhi,den,docs:[],fee:null,isVerified:true,isAvailable:true});
 export const categories=['cert','scheme','id','digital'];
 export const services=[
  S(1,'cert','FileBadge','जाति प्रमाण पत्र','Caste Certificate','जाति प्रमाण पत्र के आवेदन में सहायता।','Assistance with caste certificate applications.'),
